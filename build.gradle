@@ -32,6 +32,26 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-test {
+tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+task open_pages_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("open_pages")
+    }
+}
+
+task open_main_page_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("open_main_page")
+    }
 }
