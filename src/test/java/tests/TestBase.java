@@ -53,7 +53,6 @@ public class TestBase {
         if (!Configuration.browser.equals("firefox"))
             Attach.browserConsoleLogs();
         Attach.addVideo();
-        Attach.closeVideo();
-        //Selenide.closeWebDriver();
+        Selenide.closeWebDriver();
     }
 }

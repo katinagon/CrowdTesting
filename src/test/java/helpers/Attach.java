@@ -6,12 +6,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-import static com.codeborne.selenide.Selenide.sessionId;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 
@@ -61,17 +59,5 @@ public class Attach {
 
     public static String getSessionId(){
         return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
-    }
-
-    public static void closeVideo() {
-        try {
-            HttpURLConnection connection = (HttpURLConnection)
-                    new URL("https://" + SELENOID_URL + "/video/" + getSessionId() + ".mp4")
-                            .openConnection();
-            connection.setRequestMethod("DELETE");
-            connection.disconnect();
-        } catch (Exception e) {
-            System.out.println("Не удалось закрыть видео: " + e.getMessage());
-        }
     }
 }
