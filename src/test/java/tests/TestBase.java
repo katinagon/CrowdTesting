@@ -38,7 +38,7 @@ public class TestBase {
         ));
         Configuration.remote = "https://" + SELENOID_LOGIN + ":" + SELENOID_PASSWORD + "@" + SELENOID_URL + "/wd/hub";
         Configuration.browserCapabilities = capabilities;
-      //  Configuration.holdBrowserOpen = false;
+        Configuration.holdBrowserOpen = false;
     }
 
     @AfterEach
@@ -48,6 +48,6 @@ public class TestBase {
         if (!Configuration.browser.equals("firefox"))
             Attach.browserConsoleLogs();
         Attach.addVideo();
-       // Selenide.closeWebDriver();
+        Selenide.closeWebDriver();
     }
 }
