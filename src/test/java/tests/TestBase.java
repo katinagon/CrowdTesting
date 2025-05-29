@@ -8,6 +8,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
@@ -24,6 +26,9 @@ public class TestBase {
         Configuration.browserVersion = System.getProperty("browser.version", "128.0");
         Configuration.browserSize = System.getProperty("browser.size", "1920x1080");
         Configuration.baseUrl = "https://crowdtesting.ru/";
+        Configuration.pageLoadStrategy = "eager"; // Не ждём полной загрузки
+        Configuration.timeout = 20_000;          // Ожидание элементов
+        Configuration.pageLoadTimeout = 60_000;   // Страницы
     }
 
     @BeforeEach
@@ -36,8 +41,9 @@ public class TestBase {
                 "name", "Test: " + UUID.randomUUID()
         ));
         Configuration.remote = "https://" + SELENOID_LOGIN + ":" + SELENOID_PASSWORD + "@" + SELENOID_URL + "/wd/hub";
-        Configuration.browserCapabilities = capabilities;
-        Configuration.holdBrowserOpen = false;
+        //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        //Configuration.browserCapabilities = capabilities;
+        //Configuration.holdBrowserOpen = false;
     }
 
     @AfterEach
@@ -47,6 +53,7 @@ public class TestBase {
         if (!Configuration.browser.equals("firefox"))
             Attach.browserConsoleLogs();
         Attach.addVideo();
-        Selenide.closeWebDriver();
+        Attach.closeVideo();
+        //Selenide.closeWebDriver();
     }
 }
