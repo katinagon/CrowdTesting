@@ -42,7 +42,7 @@ public class TestBase {
         ));
         Configuration.remote = "https://" + SELENOID_LOGIN + ":" + SELENOID_PASSWORD + "@" + SELENOID_URL + "/wd/hub";
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        //Configuration.browserCapabilities = capabilities;
+        Configuration.browserCapabilities = capabilities;
         //Configuration.holdBrowserOpen = false;
     }
 
