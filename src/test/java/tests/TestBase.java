@@ -25,8 +25,6 @@ public class TestBase {
         Configuration.browserSize = System.getProperty("browser.size", "1920x1080");
         Configuration.baseUrl = "https://crowdtesting.ru/";
         Configuration.pageLoadStrategy = "eager"; // Не ждём полной загрузки
-        Configuration.timeout = 20_000;          // Ожидание элементов
-        Configuration.pageLoadTimeout = 60_000;   // Страницы
     }
 
     @BeforeEach
