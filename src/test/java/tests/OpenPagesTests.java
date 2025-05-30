@@ -17,7 +17,7 @@ public class OpenPagesTests extends TestBase {
     CrowdTestingPage crowdTestingPage = new CrowdTestingPage();
     BlogPage blogPage = new BlogPage();
 
-    @Tag("open_research_page")
+    @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Исследование")
     @Owner("goncharova-ek")
@@ -29,7 +29,7 @@ public class OpenPagesTests extends TestBase {
         researchPage.checkOpeningResearchPage();
     }
 
-    @Tag("open_testing_page")
+    @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Тестирование")
     @Owner("goncharova-ek")
@@ -41,7 +41,7 @@ public class OpenPagesTests extends TestBase {
         testingPage.checkOpeningTestingPage();
     }
 
-    @Tag("open_crowdTesting_page")
+    @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Краудтестирование")
     @Owner("goncharova-ek")
@@ -53,7 +53,7 @@ public class OpenPagesTests extends TestBase {
         crowdTestingPage.checkOpeningCrowdTestingPage();
     }
 
-    @Tag("open_blog_page")
+    @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Блог")
     @Owner("goncharova-ek")

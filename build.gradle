@@ -55,3 +55,9 @@ task open_main_page_test(type: Test) {
         includeTags("open_main_page")
     }
 }
+
+task open_from_main_page_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("open_from_main_page")
+    }
+}
