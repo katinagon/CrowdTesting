@@ -1,8 +1,8 @@
 # Автотесты для сайта CrowdTesting
 ## :pushpin: Содержание:
 
-- [Технологии и инструменты](#computer-использованный-стек-технологий)
-- [Запуск тестов из терминала](#arrow_forward-запуск-тестов-из-терминала)
+- [Технологии и инструменты](#computer-технологии-и-инструменты)
+- [Запуск тестов из терминала](#arrow_forward-команды-для-запуска-из-терминала)
 - [Сборка в Jenkins](#сборка-в-jenkins)
 - [Пример Allure-отчета](#пример-allure-отчета)
 - [Уведомления в Telegram с использованием бота](#уведомления-в-telegram-с-использованием-бота)
@@ -15,7 +15,7 @@
 <img width="6%" title="Java" src="media/icons/Java.svg">
 <img width="6%" title="Selenide" src="media/icons/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/icons/Selenoid.svg">
-<img width="6%" title="Allure Report" src="icons/Allure_Report.svg">
+<img width="6%" title="Allure Report" src="media/icons/Allure_Report.svg">
 <img width="6%" title="Gradle" src="media/icons/Gradle.svg">
 <img width="6%" title="JUnit5" src="media/icons/JUnit5.svg">
 <img width="6%" title="GitHub" src="media/icons/GitHub.svg">
