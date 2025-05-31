@@ -53,32 +53,36 @@ ${TASK}
 * <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>128.0</code>.
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По-умолчанию - <code>1920x1080</code>.
 
-## <img src="media/logo/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
+## <img src="media/icons/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
 <p align="center">
-<img title="Jenkins Build" src="media/screens/JenkinsBuild.png">
+<img title="Jenkins Build" src="media/screens/Jenkins.png">
 </p>
 
-## <img src="media/logo/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
+## <img src="media/icons/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
 ### *Основная страница отчёта*
 
 <p align="center">
-<img title="Allure Overview" src="media/screens/allureReport.png">
+<img title="Allure Overview" src="media/screens/Allure_Report.png">
 </p>
 
 ### *Тест-кейсы*
 
 <p align="center">
-<img title="Test Results in Alure" src="media/screens/ResultTest.png">
+<img title="Suites" src="media/screens/Suites.png">
 </p>
 
 ### *Графики*
 
-## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+<p align="center">
+<img title="Graphs" src="media/screens/Graphs.png">
+</p>
 
-После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Уведомления в Telegram с использованием бота
+
+После завершения сборки бот в <code>Telegram</code> автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screens/notification.png">
+<img width="70%" title="Telegram bot" src="media/screens/TG_bot.png">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
