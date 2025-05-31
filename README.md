@@ -15,7 +15,7 @@
 <img width="6%" title="Java" src="media/icons/Java.svg">
 <img width="6%" title="Selenide" src="media/icons/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/icons/Selenoid.svg">
-<img width="6%" title="Allure Report" src="icons/logo/Allure_Report.svg">
+<img width="6%" title="Allure Report" src="icons/Allure_Report.svg">
 <img width="6%" title="Gradle" src="media/icons/Gradle.svg">
 <img width="6%" title="JUnit5" src="media/icons/JUnit5.svg">
 <img width="6%" title="GitHub" src="media/icons/GitHub.svg">
@@ -28,36 +28,30 @@
 - При прогоне тестов браузер запускается в<code> Selenoid</code>
 - Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота
 
-## :arrow_forward: Запуск автотестов
+## :arrow_forward: Команды для запуска из терминала
 
-### Запуск тестов из терминала
+### *Локальный запуск:*
 ```
-gradle clean main_test
+gradle clean open_pages
 ```
-При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
-
-### Запуск тестов на удаленном браузере
-```
-gradle clean test -Denv=main
-```
-При необходимости также можно переопределить параметры запуска
-
+### *Удалённый запуск через Jenkins:*
 ```
 clean
-main -DremoteUrl=${SELENOID_URL}
--DbaseUrl=${BASE_URL}
--DbrowserSize=${BROWSER_SIZE}
--Dbrowser=${BROWSER_NAME}
--Dbrowser_version="${BROWSER_VERSION}"
+${TASK}
+-Dselenide.pageLoadStrategy=eager
+"-Dselenoid.url=${SELENOID_URL}"
+-Dselenoid.login=${SELENOID_LOGIN}
+-Dselenoid.password=${SELENOID_PASSWORD}
+"-Dbrowser=${BROWSER}"
+"-Dbrowser.version=${BROWSER_VERSION}"
+"-Dbrowser.size=${BROWSER_SIZE}"
 ```
+### *Параметры сборки:*
 
-### Параметры сборки
-
-* <code>BROWSER_NAME</code> – браузер, в котором будут выполняться тесты. По-умолчанию - <code>chrome</code>.
-* <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>100.0</code>.
-* <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты.
-* <code>BASE_URL</code> – Url, по которому будет открываться тестируемое приложение. По-умолчанию - <code>1920x1080</code>.
-* <code>REMOTE_BROWSER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
+* <code>TASK</code> – задача для запуска
+* <code>BROWSER_VERSION</code> - браузер, в котором будут выполняться тесты. По-умолчанию - <code>chrome</code>.
+* <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>128.0</code>.
+* <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По-умолчанию - <code>1920x1080</code>.
 
 ## <img src="media/logo/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
 <p align="center">
