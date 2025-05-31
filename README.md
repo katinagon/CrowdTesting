@@ -11,16 +11,16 @@
 ## :computer: Технологии и инструменты
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg">
-<img width="6%" title="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg">
-<img width="6%" title="Selenide" src="media/logo/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/logo/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg">
-<img width="6%" title="Gradle" src="media/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/logo/JUnit5.svg">
-<img width="6%" title="GitHub" src="media/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="media/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/logo/Telegram.svg">
+<img width="6%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="media/icons/Java.svg">
+<img width="6%" title="Selenide" src="media/icons/Selenide.svg">
+<img width="6%" title="Selenoid" src="media/icons/Selenoid.svg">
+<img width="6%" title="Allure Report" src="icons/logo/Allure_Report.svg">
+<img width="6%" title="Gradle" src="media/icons/Gradle.svg">
+<img width="6%" title="JUnit5" src="media/icons/JUnit5.svg">
+<img width="6%" title="GitHub" src="media/icons/GitHub.svg">
+<img width="6%" title="Jenkins" src="media/icons/Jenkins.svg">
+<img width="6%" title="Telegram" src="media/icons/Telegram.svg">
 </p>
 
 - Автотесты написаны на языке <code>Java</code> с использованием фреймворков <code>Selenide</code>, <code>JUnit 5</code>
