@@ -59,35 +59,19 @@ ${TASK}
 </p>
 
 ## <img src="media/logo/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
-### Overview
+### *Основная страница отчёта*
 
 <p align="center">
 <img title="Allure Overview" src="media/screens/allureReport.png">
 </p>
 
-### Результат выполнения теста
+### *Тест-кейсы*
 
 <p align="center">
 <img title="Test Results in Alure" src="media/screens/ResultTest.png">
 </p>
 
-## <img src="media/logo/AllureTestOps.svg" title="Allure TestOps" width="4%"/> Интеграция с Allure TestOps
-
-Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
-Результат выполнения автотестов отображается в <code>Allure TestOps</code>
-На Dashboard в <code>Allure TestOps</code> отображена статистика пройденных тестов.
-
-<p align="center">
-<img title="Allure TestOps DashBoard" src="media/screens/allureAutotestCloud.png">
-</p>
-
-## <img src="media/logo/Jira.svg" title="Jira" width="4%"/> Интеграция с Jira
-
-Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
-
-<p align="center">
-<img title="Jira Task" src="media/screens/jiraTask.png">
-</p>
+### *Графики*
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
