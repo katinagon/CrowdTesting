@@ -1,7 +1,7 @@
 # Автотесты для сайта CrowdTesting
 ## :pushpin: Содержание:
 
-- [Использованный стек технологий](#computer-использованный-стек-технологий)
+- [Технологии и инструменты](#computer-использованный-стек-технологий)
 - [Запуск тестов из терминала](#arrow_forward-запуск-тестов-из-терминала)
 - [Сборка в Jenkins](#сборка-в-jenkins)
 - [Пример Allure-отчета](#пример-allure-отчета)
@@ -12,7 +12,7 @@
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg">
-<img width="6%" title="Java" src="media/logo/Java.svg">
+<img width="6%" title="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg">
 <img width="6%" title="Selenide" src="media/logo/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/logo/Selenoid.svg">
 <img width="6%" title="Allure Report" src="media/logo/Allure_Report.svg">
