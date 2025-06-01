@@ -59,7 +59,7 @@ ${TASK}
 * <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>128.0</code>.
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По-умолчанию - <code>1920x1080</code>.
 
-## <img src="media/icons/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
+## <img src="media/icons/Jenkins.svg" title="Jenkins" width="4%"/> <a href="https://jenkins.autotests.cloud/job/035-katinagon-hw14/">Сборка в Jenkins</a>
 <p align="center">
 <img title="Jenkins Build" src="media/screens/Jenkins.png">
 </p>
