@@ -20,12 +20,21 @@ public class ResearchPage {
         return this;
     }
 
-    @Step("Проверка открытия страницы Исследования ")
-    public ResearchPage checkOpeningResearchPage() {
-        webdriver().shouldHave(url(baseUrl + "research/"));
-        researchFirstHeader.shouldHave(text("Исследования"));
-        lsideText.shouldHave(text("Качественные и количественные исследования цифровых сервисов и продуктов во всех " +
-                "странах мира от идеи до запуска"));
+    @Step("Проверка URL страницы Исследование")
+    public ResearchPage checkResearchPageURL(String url) {
+        webdriver().shouldHave(url(baseUrl + url));
+        return this;
+    }
+
+    @Step("Проверка заголовка страницы Исследование")
+    public ResearchPage checkResearchPageHeader(String header) {
+        researchFirstHeader.shouldHave(text(header));
+        return this;
+    }
+
+    @Step("Проверка текста на боковой панели страницы Исследование")
+    public ResearchPage checkResearchPageLSideText(String text) {
+        lsideText.shouldHave(text(text));
         return this;
     }
 }

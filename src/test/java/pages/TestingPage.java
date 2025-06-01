@@ -14,18 +14,27 @@ public class TestingPage {
             lsideText = $(".lside .text"),
             logo = $(".logo");
 
-    @Step("Проверка открытия страницы Исследования ")
-    public TestingPage checkOpeningTestingPage() {
-        webdriver().shouldHave(url(baseUrl + "testing/"));
-        testingFirstHeader.shouldHave(text("Тестирование"));
-        lsideText.shouldHave(text("Функциональное, интеграционное, приемочное и кроссплатформенное тестирование с " +
-                "помощью крупнейшего сообщества тестировщиков в любой точке России и мира"));
-        return this;
-    }
-
     @Step("Открываем главную страницу по клику лого")
     public TestingPage openMainPage() {
         logo.click();
+        return this;
+    }
+
+    @Step("Проверка URL страницы Тестирование")
+    public TestingPage checkTestingPageURL(String url) {
+        webdriver().shouldHave(url(baseUrl + url));
+        return this;
+    }
+
+    @Step("Проверка заголовка страницы Тестирование")
+    public TestingPage checkTestingPageHeader(String header) {
+        testingFirstHeader.shouldHave(text(header));
+        return this;
+    }
+
+    @Step("Проверка текста на боковой панели страницы Тестирование")
+    public TestingPage checkTestingPageLSideText(String text) {
+        lsideText.shouldHave(text(text));
         return this;
     }
 }

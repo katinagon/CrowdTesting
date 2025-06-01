@@ -11,9 +11,9 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 public class BlogPage {
     private final SelenideElement logo = $(".logo");
 
-    @Step("Проверка открытия страницы Блог ")
-    public BlogPage checkOpeningBlogPage() {
-        webdriver().shouldHave(url(baseUrl + "blog/"));
+    @Step("Проверка URL страницы Блог ")
+    public BlogPage checkBlogPageURL(String url) {
+        webdriver().shouldHave(url(baseUrl + url));
         return this;
     }
 

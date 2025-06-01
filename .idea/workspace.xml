@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="414b2fb9-074f-40c5-bc7c-ccd6944cda53" name="Changes" comment="Added video">
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/PagesText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BlogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CrowdTestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CrowdTestingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ResearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ResearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OpenPagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/OpenPagesTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrowdTesting" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrowdTesting" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrowdTesting" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrowdTesting" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CrowdTesting" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;katinagon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/katinagon/CrowdTesting.git&quot;,
+    &quot;accountId&quot;: &quot;babda3ba-bd7d-4cc7-b13d-5cf5673c6712&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xjBwEL76u36TEdnH1fHHgC0Ud4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.CrowdTesting [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openCrowdTestingPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openMainPageFromBlogPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openMainPageFromCrowdTestingPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openMainPageFromResearchPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openMainPageFromTestingPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openResearchPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OpenPagesTests.openTestingPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kate/IdeaProjects/qa_guru_homeworks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kate/IdeaProjects/CrowdTesting/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kate\IdeaProjects\CrowdTesting\media\icons" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CrowdTesting [allureServe]">
+    <configuration name="CrowdTesting [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenPagesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.OpenPagesTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenPagesTests.openCrowdTestingPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.OpenPagesTests.openCrowdTestingPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenPagesTests.openMainPageFromBlogPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.OpenPagesTests.openMainPageFromBlogPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenPagesTests.openMainPageFromCrowdTestingPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.OpenPagesTests.openMainPageFromCrowdTestingPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CrowdTesting [allureServe]" />
+        <item itemvalue="Gradle.OpenPagesTests" />
+        <item itemvalue="Gradle.OpenPagesTests.openMainPageFromBlogPageTest" />
+        <item itemvalue="Gradle.OpenPagesTests.openMainPageFromCrowdTestingPageTest" />
+        <item itemvalue="Gradle.OpenPagesTests.openCrowdTestingPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="414b2fb9-074f-40c5-bc7c-ccd6944cda53" name="Changes" comment="" />
+      <created>1748441840796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748441840796</updated>
+      <workItem from="1748441842139" duration="5712000" />
+      <workItem from="1748524623704" duration="8027000" />
+      <workItem from="1748540903906" duration="7097000" />
+      <workItem from="1748673570536" duration="4354000" />
+      <workItem from="1748761127965" duration="2671000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added allure, tasks">
+      <option name="closed" value="true" />
+      <created>1748525621635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748525621635</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Comment some lines">
+      <option name="closed" value="true" />
+      <created>1748527091717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748527091717</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Return back lines">
+      <option name="closed" value="true" />
+      <created>1748527396578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748527396578</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added timeout">
+      <option name="closed" value="true" />
+      <created>1748527799639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748527799639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Return eager">
+      <option name="closed" value="true" />
+      <created>1748528416030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748528416030</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added timeout 30_000">
+      <option name="closed" value="true" />
+      <created>1748529172825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748529172825</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Replaced timeout and eager">
+      <option name="closed" value="true" />
+      <created>1748529966502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748529966502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added timeout and closeVideo">
+      <option name="closed" value="true" />
+      <created>1748544488106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748544488106</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Return capabilities">
+      <option name="closed" value="true" />
+      <created>1748544598328</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748544598328</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Delete closeVideo">
+      <option name="closed" value="true" />
+      <created>1748545406954</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748545406954</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Delete some imports">
+      <option name="closed" value="true" />
+      <created>1748545885655</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748545885655</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Delete timeout">
+      <option name="closed" value="true" />
+      <created>1748546723691</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748546723691</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed tags">
+      <option name="closed" value="true" />
+      <created>1748576957188</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748576957188</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added icons">
+      <option name="closed" value="true" />
+      <created>1748674888596</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748674888596</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Replaced icons">
+      <option name="closed" value="true" />
+      <created>1748675114635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748675114635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added screens">
+      <option name="closed" value="true" />
+      <created>1748677796742</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748677796742</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added video">
+      <option name="closed" value="true" />
+      <created>1748678340632</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748678340632</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added allure, tasks" />
+    <MESSAGE value="Comment some lines" />
+    <MESSAGE value="Return back lines" />
+    <MESSAGE value="Added timeout" />
+    <MESSAGE value="Return eager" />
+    <MESSAGE value="Added timeout 30_000" />
+    <MESSAGE value="Replaced timeout and eager" />
+    <MESSAGE value="Added timeout and closeVideo" />
+    <MESSAGE value="Return capabilities" />
+    <MESSAGE value="Delete closeVideo" />
+    <MESSAGE value="Delete some imports" />
+    <MESSAGE value="Delete timeout" />
+    <MESSAGE value="Changed tags" />
+    <MESSAGE value="Added icons" />
+    <MESSAGE value="Replaced icons" />
+    <MESSAGE value="Added screens" />
+    <MESSAGE value="Added video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added video" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -41,11 +41,15 @@ public class MainPage {
         blogNavItem.click();
     }
 
-    @Step("Проверка открытия главной страницы ")
-    public MainPage checkOpeningMainPage() {
+    @Step("Проверка URL главной страницы")
+    public MainPage checkMainPageURL() {
         webdriver().shouldHave(url(baseUrl));
-        firstBlockText.shouldHave(text("Делаем цифровые сервисы и продукты полезными, удобными и понятными для " +
-                "миллионов людей"));
+        return this;
+    }
+
+    @Step("Проверка текста главной страницы")
+    public MainPage checkMainPageText(String text) {
+        firstBlockText.shouldHave(text(text));
         return this;
     }
 }

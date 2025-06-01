@@ -8,8 +8,11 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.*;
 
+import static data.PagesText.*;
+
 @Tag("open_pages")
 @DisplayName("Тесты на открытие страниц")
+@Owner("goncharova-ek")
 public class OpenPagesTests extends TestBase {
     MainPage mainPage = new MainPage();
     ResearchPage researchPage = new ResearchPage();
@@ -20,105 +23,106 @@ public class OpenPagesTests extends TestBase {
     @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Исследование")
-    @Owner("goncharova-ek")
     @DisplayName("Успешное открытие страницы Исследование при нажатии на пункт навигационного меню")
     @Test
     public void openResearchPageTest() {
         mainPage.openMainPage()
                 .openResearchPage();
-        researchPage.checkOpeningResearchPage();
+        researchPage.checkResearchPageURL(researchUrl)
+                .checkResearchPageHeader(researchHeader)
+                .checkResearchPageLSideText(researchLSideText);
     }
 
     @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Тестирование")
-    @Owner("goncharova-ek")
     @DisplayName("Успешное открытие страницы Тестирование при нажатии на пункт навигационного меню")
     @Test
     public void openTestingPageTest() {
         mainPage.openMainPage()
                 .openTestingPage();
-        testingPage.checkOpeningTestingPage();
+        testingPage.checkTestingPageURL(testingUrl)
+                .checkTestingPageHeader(testingHeader)
+                .checkTestingPageLSideText(testingLSideText);
     }
 
     @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Краудтестирование")
-    @Owner("goncharova-ek")
     @DisplayName("Успешное открытие страницы Краудтестирование при нажатии на пункт навигационного меню")
     @Test
     public void openCrowdTestingPageTest() {
         mainPage.openMainPage()
                 .openCrowdTestingPage();
-        crowdTestingPage.checkOpeningCrowdTestingPage();
+        crowdTestingPage.checkCrowdTestingPageURL(crowdTestingUrl)
+                .checkCrowdTestingPageHeader(crowdTestingHeader);
     }
 
     @Tag("open_from_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие страницы Блог")
-    @Owner("goncharova-ek")
     @DisplayName("Успешное открытие страницы Блог при нажатии на пункт навигационного меню")
     @Test
     public void openBlogPageTest() {
         mainPage.openMainPage()
                 .openBlogPage();
-        blogPage.checkOpeningBlogPage();
+        blogPage.checkBlogPageURL(blogURL);
     }
 
     @Tag("open_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие главной страницы по лого")
-    @Owner("goncharova-ek")
-    @DisplayName("Успешное открытие главной страницы по лого из страницы Исследования")
+    @DisplayName("Успешное открытие главной страницы по лого из страницы Исследование")
     @Test
     public void openMainPageFromResearchPageTest() {
         mainPage.openMainPage()
                 .openResearchPage();
-        researchPage.checkOpeningResearchPage()
+        researchPage.checkResearchPageURL(researchUrl)
                 .openMainPage();
-        mainPage.checkOpeningMainPage();
+        mainPage.checkMainPageURL()
+                .checkMainPageText(mainText);
     }
 
     @Tag("open_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие главной страницы по лого")
-    @Owner("goncharova-ek")
     @DisplayName("Успешное открытие главной страницы по лого из страницы Тестирование")
     @Test
     public void openMainPageFromTestingPageTest() {
         mainPage.openMainPage()
                 .openTestingPage();
-        testingPage.checkOpeningTestingPage()
+        testingPage.checkTestingPageURL(testingUrl)
                 .openMainPage();
-        mainPage.checkOpeningMainPage();
+        mainPage.checkMainPageURL()
+                .checkMainPageText(mainText);
     }
 
     @Tag("open_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие главной страницы по лого")
-    @Owner("goncharova-ek")
     @DisplayName("Успешное открытие главной страницы по лого из страницы Краудтестирование")
     @Test
     public void openMainPageFromCrowdTestingPageTest() {
         mainPage.openMainPage()
                 .openCrowdTestingPage();
-        crowdTestingPage.checkOpeningCrowdTestingPage()
+        crowdTestingPage.checkCrowdTestingPageURL(crowdTestingUrl)
                 .openMainPage();
-        mainPage.checkOpeningMainPage();
+        mainPage.checkMainPageURL()
+                .checkMainPageText(mainText);
     }
 
     @Tag("open_main_page")
     @Feature("Главная страница")
     @Story("Успешное открытие главной страницы по лого")
-    @Owner("goncharova-ek")
-    @DisplayName("Успешное открытие главной страницы по лого из страницы Блога")
+    @DisplayName("Успешное открытие главной страницы по лого из страницы Блог")
     @Test
     public void openMainPageFromBlogPageTest() {
         mainPage.openMainPage()
                 .openBlogPage();
-        blogPage.checkOpeningBlogPage()
+        blogPage.checkBlogPageURL(blogURL)
                 .openMainPage();
-        mainPage.checkOpeningMainPage();
+        mainPage.checkMainPageURL()
+                .checkMainPageText(mainText);
     }
 
 }

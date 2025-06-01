@@ -13,16 +13,21 @@ public class CrowdTestingPage {
     private final SelenideElement crowdTestingFirstHeader = $(".title-1 .heading-h1"),
             logo = $(".logo");
 
-    @Step("Проверка открытия страницы Краудтестирование ")
-    public CrowdTestingPage checkOpeningCrowdTestingPage() {
-        webdriver().shouldHave(url(baseUrl + "crowdtesting/"));
-        crowdTestingFirstHeader.shouldHave(text("Краудтестирование"));
-        return this;
-    }
-
     @Step("Открываем главную страницу по клику лого")
     public CrowdTestingPage openMainPage() {
         logo.click();
+        return this;
+    }
+
+    @Step("Проверка URL страницы Краудтестирование")
+    public CrowdTestingPage checkCrowdTestingPageURL(String url) {
+        webdriver().shouldHave(url(baseUrl + url));
+        return this;
+    }
+
+    @Step("Проверка заголовка страницы Краудтестирование")
+    public CrowdTestingPage checkCrowdTestingPageHeader(String header) {
+        crowdTestingFirstHeader.shouldHave(text(header));
         return this;
     }
 }
