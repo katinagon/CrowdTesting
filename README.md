@@ -2,6 +2,8 @@
 <p align="center">
 <img title="CrowdTesting" src="media/screens/CT.png">
 </p>
+[Сайт CrowdTesting](https://crowdtesting.ru/)
+
 ## :pushpin: Содержание:
 
 - [Технологии и инструменты](#computer-технологии-и-инструменты)
