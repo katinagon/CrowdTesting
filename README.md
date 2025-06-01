@@ -64,7 +64,7 @@ ${TASK}
 <img title="Jenkins Build" src="media/screens/Jenkins.png">
 </p>
 
-## <img src="media/icons/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
+## <img src="media/icons/Allure_Report.svg" title="Allure Report" width="4%"/> <a href="https://jenkins.autotests.cloud/job/035-katinagon-hw14/25/allure/">Пример Allure-отчета</a>
 ### *Основная страница отчёта*
 
 <p align="center">
