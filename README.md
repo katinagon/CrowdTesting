@@ -17,16 +17,16 @@
 ## :computer: Технологии и инструменты
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="media/icons/Java.svg">
-<img width="6%" title="Selenide" src="media/icons/Selenide.svg">
-<img width="6%" title="Selenoid" src="media/icons/Selenoid.svg">
-<img width="6%" title="Allure Report" src="media/icons/Allure_Report.svg">
-<img width="6%" title="Gradle" src="media/icons/Gradle.svg">
-<img width="6%" title="JUnit5" src="media/icons/JUnit5.svg">
-<img width="6%" title="GitHub" src="media/icons/GitHub.svg">
-<img width="6%" title="Jenkins" src="media/icons/Jenkins.svg">
-<img width="6%" title="Telegram" src="media/icons/Telegram.svg">
+<a href="https://www.jetbrains.com/idea/"><img width="6%" title="IntelliJ IDEA" src="media/icons/Intelij_IDEA.svg"></a>
+<a href="https://www.java.com/"><img width="6%" title="Java" src="media/icons/Java.svg"></a>
+<a href="https://selenide.org/"><img width="6%" title="Selenide" src="media/icons/Selenide.svg"></a>
+<a href="https://aerokube.com/selenoid/"><img width="6%" title="Selenoid" src="media/icons/Selenoid.svg"></a>
+<a href="https://github.com/allure-framework/allure2"><img width="6%" title="Allure Report" src="media/icons/Allure_Report.svg"></a>
+<a href="https://gradle.org/"><img width="6%" title="Gradle" src="media/icons/Gradle.svg"></a>
+<a href="https://junit.org/junit5/"><img width="6%" title="JUnit5" src="media/icons/JUnit5.svg"></a>
+<a href="https://github.com/"><img width="6%" title="GitHub" src="media/icons/GitHub.svg"></a>
+<a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="media/icons/Jenkins.svg"></a>
+<a href="https://web.telegram.org/"><img width="6%" title="Telegram" src="media/icons/Telegram.svg"></a>
 </p>
 
 - Автотесты написаны на языке <code>Java</code> с использованием фреймворков <code>Selenide</code>, <code>JUnit 5</code>
